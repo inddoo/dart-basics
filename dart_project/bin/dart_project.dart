@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  print("Masukkan nama:");
-  String? nama  = stdin.readLineSync();
-  print("Nama anda adalah ${nama}");
+  print("Masukkan bilangan bulat:");
+  int? number = int.parse(stdin.readLineSync()!);
+  print("Bilangan yang anda masukkan ${number}");
 }
