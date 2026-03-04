@@ -1,7 +1,8 @@
 import 'dart:io';
 
 void main(){
-for(var=1;i<=10;i++>){
-    print("Number $i");
-}
+  int i=1;
+  while(i<=10){
+      print("nilai while: $i");
+  }
 }
