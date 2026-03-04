@@ -1,7 +1,7 @@
-import 'package:dart_project/dart_project.dart' as dart_project;
+import 'dart:io';
 
 void main() {
-  var A = true;
-  var B = false;
-  var expr = A && B; //false
+  print("Masukkan nama:");
+  String? nama  = stdin.readLineSync();
+  print("Nama anda adalah ${nama}");
 }
