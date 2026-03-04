@@ -1,8 +1,8 @@
 import 'dart:io';
 
 void main(){
-  int i=1;
-  do {
-      print("nilai while: $i");
-  } while(i<=10)
+List<String> listNama = ['agus', 'budi', 'cahyo'];
+for(String nama in listNama){
+    print(nama);
+}
 }
