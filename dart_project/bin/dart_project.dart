@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main(){
   int i=1;
-  while(i<=10){
+  do {
       print("nilai while: $i");
-  }
+  } while(i<=10)
 }
