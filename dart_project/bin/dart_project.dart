@@ -1,7 +1,11 @@
 import 'dart:io';
 
 void main() {
-  print("Masukkan bilangan desimal:");
-  double number = double.parse(stdin.readLineSync()!);
-  print("Bilangan yang anda masukkan $number");
+    var testList = [2,4,8,16,32];
+    print(testList);
+    if(testList.isNotEmpty){
+        print('Tulisan ini akan tampil, jika kondisi bernilai true');
+        testList.clear();
+    }
+    print(testList);
 }
